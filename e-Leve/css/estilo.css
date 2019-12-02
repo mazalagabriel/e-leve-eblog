@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', 'Open sans';
+}
+
+body {
+    background: #62E78F;
+}
+
+#header-principal {
+    background: #fff;
+    display: flex;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px #4646;
+}
+
+.logo-menu {
+    margin-left: 32px;
+}
+
+/*#navegacao-principal {
+
+}*/
+
+#navegacao-principal a {
+    color: black;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.botao-menu-jogar {
+    border: 1px solid #000;
+    border-radius: 14px;
+    padding: 5px 19px;
+}
+
+.container {
+    width: 1254px;
+    margin: 0 auto;
+}
+
+.intro {
+    width: 1016px;
+    margin: 37px auto;
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    width: 541px;
+}
+
+.celular {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.celular img {
+    width: 80%;
+}
+
+.intro .texto h1 {
+    font-size: 31px;
+    padding-bottom: 10px;
+}
+
+.intro .texto span {
+    color: #fff;
+    font-size: 19px;
+}
+
+.tutorial {
+    background: url("../imagens/background-funcionamento.png");
+    background-repeat: no-repeat;
+}
+
+/*============================= CSS ANA ==============================*/
+
+.container-login {
+    background: #ffffff;
+    margin: 100px;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+#entrar {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+#link-cadastrar {
+    text-decoration: none;
+    color: #000000;
+    font-size: 33px;
+}
+
+#input-login, #input-senha {
+    width: 800px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    outline: 0;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+#input-play {
+    width: 225px;
+    height: 55px;
+    background: #0080FF;
+    border-radius: 10px;
+    outline: 0;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+/*============================= CSS GB ==============================*/
+
+#logo-eblog{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+
+
+#img-eblog {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.titulo{
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 81px;
+    color: #ffffff;
+    padding-top: 18px;
+}
+
+.ler {
+    color: #0080FF;
+    padding-bottom: 15px;
+    text-decoration: none;
+    margin: 65px;
+}
+
+h6{
+    padding: 15px;
+}
+
+h2{
+    text-align: left;
+    align-items: center;
+    padding: 5px;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-size: 27px;
+    display: flex;
+}
+
+#input-buscar{
+    background: transparent;
+    color: white;
+    width: 800px;
+    height: 68px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    outline: 0;
+    font-size: 25px;
+    font-style: normal;
+}
+
+#input-enviar-eblog {
+    width: 225px;
+    height: 55px;
+    border-color: #0080FF;
+    background: #0080FF;
+    border-radius: 10px;
+    outline: 0;
+    color: #ffffff;
+    font-size: 26px;
+    margin: 10px 0 10px 0;
+   
+}
+
+.form-eblog{
+    max-width: 800px;
+    background: white;
+    color: black;
+    margin: 100px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.receba-novidades {
+    color: #000000;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+#input-email-eblog, #input-nome-eblog{
+    width: 600px;
+    height: 50px;
+    color: gray;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    outline: 0;
+    font-size: 30px;    
+}
+
+
